@@ -2,7 +2,8 @@
 
 Builds a model for the [ICGC-TCGA DREAM Somatic Mutation Calling Meta-pipeline Challenge](https://www.synapse.org/#!Synapse:syn4588939/wiki/) 
 (SMC-DNA Meta), and uses this model to make predictions against the tumor data provided as part of the challenge. The model is built with 
-[gradient-boosted trees](http://xgboost.readthedocs.io/en/latest/model.html) using the [XGBoost library] in R.
+[gradient-boosted trees](http://xgboost.readthedocs.io/en/latest/model.html) using the [XGBoost library](http://xgboost.readthedocs.io/en/latest/) 
+in R.
 
 To build a new model and score the tumor data against it:
 
